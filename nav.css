@@ -1,0 +1,52 @@
+/* nav {
+    background-color: tan;
+    border-radius: 15px;
+    width: 75%;
+    height: 40px;
+    } */
+    
+    /* .nav__links {
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+    background-color:lightskyblue;
+    border-radius: 15px 50px;
+}  */
+
+.nav__title {
+    font-family: 'Abril Fatface', cursive;
+    background-color: navy;
+    border-radius: 15px;
+    width: 20%;
+    height: 50px;
+    color: blueviolet;
+}
+
+
+
+nav {
+    border: 2px solid gray;
+    box-shadow: 1px 2px 2px gray;
+    padding: 10px 8px;
+    background-color: beige;
+  }
+  
+  .nav__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav__links {
+    float: right;
+  }
+  
+  .nav__links a {
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px -1px 2px gray;
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: navy;
+    color: oldlace;
+  }
