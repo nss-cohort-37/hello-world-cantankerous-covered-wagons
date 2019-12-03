@@ -4,7 +4,7 @@ import leadersComponent from "./leaders.js";
 const leadersListComponent = () => {
 
   // Get a reference to the `<article class="content">` element
-  const contentElement = document.querySelector(".leadersList")
+  const contentElement = document.querySelector(".info")
   const leadersCollection = useLeaders()
 
 

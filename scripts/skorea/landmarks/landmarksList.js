@@ -4,7 +4,7 @@ import landmarksComponent from "./landmarks.js";
 const landmarksListComponent = () => {
 
   // Get a reference to the `<article class="content">` element
-  const contentElement = document.querySelector(".landmarksList")
+  const contentElement = document.querySelector(".info")
   const landmarksCollection = useLandmark()
 
 

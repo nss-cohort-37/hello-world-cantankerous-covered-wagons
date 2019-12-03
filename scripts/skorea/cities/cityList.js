@@ -4,7 +4,7 @@ import cityComponent from "./city.js";
 const cityListComponent = () => {
 
   // Get a reference to the `<article class="content">` element
-  const contentElement = document.querySelector(".cityList")
+  const contentElement = document.querySelector(".info")
   const cityCollection = useCity()
 
 

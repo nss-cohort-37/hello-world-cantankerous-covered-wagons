@@ -9,10 +9,11 @@ import addMouseOverEventListeners from "../../highlightCards.js";
 
 
 
-landmarksListComponent()
-useLandmark()
+
 cityListComponent()
 useCity()
+landmarksListComponent()
+useLandmark()
 useLeaders()
 leadersListComponent()
 addMouseOverEventListeners()
