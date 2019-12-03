@@ -1,18 +1,18 @@
 const leadersCollection = [
     {
-        name: "Nakanu nara",
+        name: "Emperor Naruhito",
+        details: "head"
     },
     {
-        name: "koroshite shimae"
+        name: "Emperor Emeritus",
+        details: "head"
     },
     {
-        name: "hototogisu shinjuku",
+        name: "Emperor Shōwa",
+        details: "head"
     }
 ]
 
 export const useLeaders = () => {
     return leadersCollection
 }
-
-
-
