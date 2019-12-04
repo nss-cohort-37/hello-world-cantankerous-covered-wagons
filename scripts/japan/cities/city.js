@@ -5,8 +5,10 @@ const CityComponent = (city) => {
     <button id="button--city--${city.name}">Details</button>
     <dialog class="dialog--city" id="details--${city.name}">
         <div>details: ${city.details}</div>
+        <img class="button__landscape" src=${city.image}>
+        <br> 
         <button class="button--close">Close Dialog</button>
-    </dialog>        
-    `
+    </dialog>
+     `
 }
 export default CityComponent
