@@ -10,6 +10,7 @@ const LeaderComponent = (leader) => {
             <dialog class="dialog--city" id="details--${leaderName}">
                 <div>${leader.details}</div>
                 <img class="button__image" src="${leader.image}" alt="">
+                <br>
                 <button class="button--close">Close Dialog</button>
             </dialog>
     `

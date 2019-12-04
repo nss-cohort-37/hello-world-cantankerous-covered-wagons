@@ -11,6 +11,7 @@ const CityComponent = (city) => {
             <dialog class="dialog--city" id="details--${cityName}">
                 <div>${city.details}</div>
                 <img class="button__landscape" src="${city.image}" alt="">
+                <br>
                 <button class="button--close">Close Dialog</button>
             </dialog>
     `

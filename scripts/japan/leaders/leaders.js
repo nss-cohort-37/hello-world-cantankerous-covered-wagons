@@ -6,9 +6,9 @@ const LeadersComponent = (leaders) => {
     <button id="button--leaders--${LeadersName}">Details</button>
     <dialog class="dialog--leaders" id="details--${LeadersName}">
         <div>details: ${leaders.details}</div>
-        <button class="button--close">Close Dialog</button>
         <img class="button__image" src=${leaders.image}>
         <br> 
+        <button class="button--close">Close Dialog</button>
     </dialog>        
     `
 }
