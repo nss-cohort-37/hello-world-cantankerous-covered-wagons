@@ -25,3 +25,13 @@ img {
   font-family: 'Montserrat', sans-serif;
 
 }
+
+.button__image {
+  width: 300px;
+  height: 400px;
+}
+
+.button__landscape {
+  width: 300px;
+  height: 200px;
+}
