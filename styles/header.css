@@ -5,23 +5,34 @@ flex-direction: column;
 
 
 img {
-  width: 1080px;
+  width: 100%;
   height: 540px; 
   justify-content: space-around;
+  
 }
 .image{
   align-self: center;
 }
 .country {
+  display:flex; 
+  flex-direction:row; 
   border: 2px solid navy;
   width: 100%;
   background-color: tan;
+  justify-content: center;
+
 }
 
+.flagImage{
+  width: 5%; 
+  height: 5%; 
+  align-self: center; 
+}
 
 .country__name {
-  text-align: center;
+
   font-size: 36px;
   font-family: 'Montserrat', sans-serif;
+ 
 
 }
